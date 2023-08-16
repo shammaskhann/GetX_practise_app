@@ -11,7 +11,7 @@ class AppFunctions extends GetxController{
     if(togg){
       Get.changeTheme(ThemeData.dark());
     }
-    else if(!togg){
+    else{
       Get.changeTheme(ThemeData.light());
     }
   }
